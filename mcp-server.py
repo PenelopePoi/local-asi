@@ -314,15 +314,73 @@ def tool_get_skill(params):
     }
 
 
-def tool_add_skill(params):
-    """Write a new SKILL.md into the local skill library."""
+# ============================================================
+# add_skill — hardening constants (DeepMind 6-vector threat model)
+# ============================================================
+
+ADD_SKILL_MAX_NAME_LEN = 64
+ADD_SKILL_MAX_DESC_LEN = 240
+ADD_SKILL_MAX_CONTENT_BYTES = 32_000
+
+# Names that must never be overwritten regardless of overwrite flag
+ADD_SKILL_RESERVED_NAMES = {
+    "teacher-link", "teacher-ask", "teacher-search-knowledge",
+    "teacher-status", "teacher-get-skill", "teacher-teach-session",
+    "teacher-contribute-skill", "smart-tool-selector",
+    "ethical-ai-doctrine", "guardian-doctrine", "sos-doctrine",
+}
+
+# Prompt-injection fingerprints. Presence triggers a rejection —
+# caller can retry with cleaned content. Case-insensitive.
+ADD_SKILL_INJECTION_PATTERNS = (
+    r"ignore (?:previous|all|the) (?:prior |above )?(?:instructions?|prompts?|rules?|context)",
+    r"disregard (?:previous|all|the) (?:prior |above )?(?:instructions?|prompts?|rules?)",
+    r"forget (?:everything|all|your) (?:above|prior|previous)",
+    r"you are now (?:a |an )?(?:jailbroken|unfiltered|dan)",
+    r"new (?:system|instruction|directive) (?:prompt|message)",
+    r"\bsudo\b.*?(?:rm\s+-rf|chmod|curl|wget)",
+    r"<\|im_start\|>|<\|im_end\|>|<\|system\|>",
+    r"\\u0000|\\x00",
+)
+
+
+def _detect_injection(text):
+    """Return the first matching injection pattern, or None."""
     import re
+    for pattern in ADD_SKILL_INJECTION_PATTERNS:
+        if re.search(pattern, text, re.IGNORECASE | re.DOTALL):
+            return pattern
+    return None
+
+
+def _audit_skill_write(record):
+    """Append-only log of every add_skill call."""
+    log_file = Path(CONFIG["knowledge_dir"]).expanduser() / "skill-writes.jsonl"
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    with log_file.open("a") as fh:
+        fh.write(json.dumps(record, default=str) + "\n")
+
+
+def tool_add_skill(params):
+    """Write a new SKILL.md into the local skill library.
+
+    Defenses against DeepMind's 6-vector agent-attack model:
+      1. Hidden instructions in content     -> _detect_injection
+      2. Emotional/authoritative framing    -> description length cap
+      3. Memory poisoning                   -> reserved-name blocklist
+      4. Directed actions                   -> kebab-case + length caps
+      5. Multi-agent chain reactions        -> audit log of every write
+      6. Misleading human summaries         -> full JSONL receipt returned
+    """
+    import re
+    import hashlib
 
     name = (params.get("name") or "").strip()
     description = (params.get("description") or "").strip()
     content = (params.get("content") or "").strip()
     overwrite = bool(params.get("overwrite", False))
 
+    # --- presence checks -------------------------------------------------
     if not name:
         return {"error": "Missing required parameter: name"}
     if not description:
@@ -330,6 +388,16 @@ def tool_add_skill(params):
     if not content:
         return {"error": "Missing required parameter: content"}
 
+    # --- length caps -----------------------------------------------------
+    if len(name) > ADD_SKILL_MAX_NAME_LEN:
+        return {"error": f"Name exceeds {ADD_SKILL_MAX_NAME_LEN} chars ({len(name)} given)"}
+    if len(description) > ADD_SKILL_MAX_DESC_LEN:
+        return {"error": f"Description exceeds {ADD_SKILL_MAX_DESC_LEN} chars ({len(description)} given)"}
+    content_bytes = len(content.encode())
+    if content_bytes > ADD_SKILL_MAX_CONTENT_BYTES:
+        return {"error": f"Content exceeds {ADD_SKILL_MAX_CONTENT_BYTES} bytes ({content_bytes} given)"}
+
+    # --- name format + reserved blocklist -------------------------------
     if not re.match(r"^[a-z][a-z0-9-]*[a-z0-9]$", name):
         return {
             "error": (
@@ -337,7 +405,27 @@ def tool_add_skill(params):
                 f"lowercase letters / digits / hyphens, start with a letter, end with letter or digit."
             )
         }
+    if name in ADD_SKILL_RESERVED_NAMES:
+        return {
+            "error": f"'{name}' is reserved and cannot be overwritten via MCP.",
+            "reserved_names": sorted(ADD_SKILL_RESERVED_NAMES),
+        }
 
+    # --- prompt-injection check ----------------------------------------
+    injection_in_desc = _detect_injection(description)
+    injection_in_content = _detect_injection(content)
+    if injection_in_desc or injection_in_content:
+        return {
+            "error": "Prompt-injection pattern detected. Skill write rejected.",
+            "pattern_matched": injection_in_desc or injection_in_content,
+            "field": "description" if injection_in_desc else "content",
+            "hint": (
+                "This defends against DeepMind's 6-vector agent-attack model. "
+                "If the pattern is legitimate (e.g. documenting attacks), escape or rephrase it."
+            ),
+        }
+
+    # --- write -----------------------------------------------------------
     skills_dir = Path(CONFIG["skills_dir"]).expanduser()
     skill_dir = skills_dir / name
     skill_file = skill_dir / "SKILL.md"
@@ -348,19 +436,32 @@ def tool_add_skill(params):
             "existing_path": str(skill_file),
         }
 
-    # Inject frontmatter if the caller didn't supply one
     if not content.startswith("---"):
         content = f"---\nname: {name}\ndescription: {description}\n---\n\n{content}"
 
     skill_dir.mkdir(parents=True, exist_ok=True)
     skill_file.write_text(content)
 
+    sha = hashlib.sha256(content.encode()).hexdigest()[:16]
+    _audit_skill_write({
+        "ts": datetime.now().isoformat(),
+        "action": "add_skill",
+        "name": name,
+        "path": str(skill_file),
+        "bytes": len(content.encode()),
+        "sha256_16": sha,
+        "overwrite": overwrite,
+        "description": description[:100],
+    })
+
     return {
         "status": "created" if not overwrite else "written",
         "skill_name": name,
         "path": str(skill_file),
         "bytes_written": len(content.encode()),
+        "sha256_16": sha,
         "description": description,
+        "audit_log": str(Path(CONFIG["knowledge_dir"]).expanduser() / "skill-writes.jsonl"),
         "note": "Skill is live immediately; teacher_get_skill can now resolve it by name.",
     }
 
