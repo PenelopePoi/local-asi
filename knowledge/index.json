@@ -257,8 +257,14 @@
       "query": "What is Teacher IDE and how is it architected?",
       "score": 10.0,
       "timestamp": "2026-04-19T02:21:06.224276"
+    },
+    {
+      "id": "845ade5b2585",
+      "query": "What is Teacher IDE and what makes it different from VS Code?",
+      "score": 8.6,
+      "timestamp": "2026-04-19T06:06:50.551608"
     }
   ],
-  "total_queries": 43,
-  "avg_score": 9.511627906976743
+  "total_queries": 44,
+  "avg_score": 9.490909090909092
 }

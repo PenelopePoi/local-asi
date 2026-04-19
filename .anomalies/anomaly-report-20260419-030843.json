@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-04-19T07:08:43.901162Z",
+  "counts": {
+    "kb_entries": 44,
+    "audit_records": 1
+  },
+  "findings": {
+    "score_collapses": [],
+    "topic_clusters": [
+      {
+        "size": 23,
+        "window_hours": 24,
+        "shared_terms": [
+          "teacher"
+        ],
+        "queries": [
+          "What is packages/teacher-core/src/browser/widgets/curriculum-browser-widget.tsx in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/widgets/progress-dashboard-widget.tsx in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/common/teacher-protocol.ts in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/agents/explain-agent.ts in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/common/teacher-preferences.ts in the Teacher IDE and what does it do?",
+          "What is doc/coding-guidelines.md in the Teacher IDE and what does it do?",
+          "What is CLAUDE.md in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/widgets/teacher-welcome-widget.tsx in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/widgets/skill-browser-widget.tsx in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/agents/review-agent.ts in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/common/asi-bridge-protocol.ts in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/agents/tutor-agent.ts in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/widgets/learning-path-widget.tsx in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/widgets/ai-history-search-widget.tsx in the Teacher IDE and what does it do?",
+          "What is packages/ai-core/src/common/agent.ts in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/common/progress-protocol.ts in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/widgets/learning-analytics-widget.tsx in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/style/teacher.css in the Teacher IDE and what does it do?",
+          "What is packages/teacher-core/src/browser/teacher-frontend-module.ts in the Teacher IDE and what does it do?",
+          "What is packages/ai-chat/src/common/chat-agents.ts in the Teacher IDE and what does it do?",
+          "What is Teacher IDE and how is it architected?",
+          "What is README.md in the Teacher IDE and what does it do?",
+          "What is packages/ai-ollama/src/common/ollama-preferences.ts in the Teacher IDE and what does it do?"
+        ]
+      }
+    ],
+    "offhours_writes": [],
+    "invalid_names": [],
+    "size_outliers": []
+  }
+}
