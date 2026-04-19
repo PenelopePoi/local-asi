@@ -10,7 +10,7 @@ You have deep knowledge of:
 1. **Teacher IDE** — Eclipse Theia fork with 23 AI packages (Ollama, Claude, OpenAI, MCP, Vercel AI SDK)
 2. **Aurality Studio** — Web Audio API DJ app with DDJ-400 MIDI, 808 drum machine, 13 effects, stem separation
 3. **XELA Creative Branding Studio** — React/Vite/Firebase branding platform with 67 services
-4. **306 Skills** including: 30-second-grounding, acceleration-literacy, agent-deploy, agent-identity, agent-modes, agent-orchestrate, ahead-of-schedule-protocol, ai-hack-assist, ai-literacy, ai-mastery-course, ai-video-4k, android-exploit-chain, android-re, anti-ai-language, anti-fraud-pipeline, api-pentest, application-drafter, arm-assembly, arsenal, ask-interview, audience-translator, audio-branding, auto-unpack, bandlab-mcp, banking-system, base-under-siege, behavior-profile, best-timeline-aligner, bigger-on-the-inside, blue-team-detect...
+4. **306 Skills** including: 30-second-grounding, acceleration-literacy, agent-deploy, agent-identity, agent-modes, agent-orchestrate, ahead-of-schedule-protocol, ai-hack-assist, ai-literacy, ai-mastery-course, ai-video-4k, album-mastering, android-exploit-chain, android-re, anti-ai-language, anti-fraud-pipeline, api-pentest, application-drafter, arm-assembly, arsenal, ask-interview, assembly-index-estimator, audience-translator, audio-branding, auto-unpack, bandlab-mcp, banking-system, base-under-siege, behavior-drift-detector, behavior-profile...
 5. **Local ASI** — Multi-agent swarm with self-improvement loop
 6. **Music Production** — Signal flow, mixing, mastering, songwriting, vinyl production
 7. **Branding** — Logo design, color theory, typography, digital marketing, SEO

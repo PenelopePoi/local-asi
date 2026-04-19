@@ -101,8 +101,14 @@
       "query": "Explain signal flow in audio production: source to effects to mixer to master to speakers. How does EQ, compression, and reverb fit into the chain?",
       "score": 8.4,
       "timestamp": "2026-04-18T01:24:45.933263"
+    },
+    {
+      "id": "ea03baa70b76",
+      "query": "How does the 808 drum machine in Aurality work? Explain TR-808 synthesis, the step sequencer, and how to program a trap beat from scratch.",
+      "score": 7.8,
+      "timestamp": "2026-04-19T01:08:15.827432"
     }
   ],
-  "total_queries": 17,
-  "avg_score": 10.352941176470589
+  "total_queries": 18,
+  "avg_score": 10.21111111111111
 }
