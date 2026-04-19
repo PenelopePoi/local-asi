@@ -11,8 +11,9 @@ Tools:
   POST /tool/search_knowledge — Search the accumulated knowledge base
   POST /tool/teach            — Run a teaching session on a topic
   POST /tool/improve          — Trigger a self-improvement cycle
-  POST /tool/list_skills      — List available skills from the 306-skill library
+  POST /tool/list_skills      — List available skills from the local skill library
   POST /tool/get_skill        — Get full content of a specific skill
+  POST /tool/add_skill        — Write a new SKILL.md into the local skill library
   POST /tool/status           — System health dashboard
 
 Protocol: HTTP POST with JSON body, returns JSON response.
@@ -313,6 +314,57 @@ def tool_get_skill(params):
     }
 
 
+def tool_add_skill(params):
+    """Write a new SKILL.md into the local skill library."""
+    import re
+
+    name = (params.get("name") or "").strip()
+    description = (params.get("description") or "").strip()
+    content = (params.get("content") or "").strip()
+    overwrite = bool(params.get("overwrite", False))
+
+    if not name:
+        return {"error": "Missing required parameter: name"}
+    if not description:
+        return {"error": "Missing required parameter: description"}
+    if not content:
+        return {"error": "Missing required parameter: content"}
+
+    if not re.match(r"^[a-z][a-z0-9-]*[a-z0-9]$", name):
+        return {
+            "error": (
+                f"Invalid skill name '{name}'. Required: kebab-case, "
+                f"lowercase letters / digits / hyphens, start with a letter, end with letter or digit."
+            )
+        }
+
+    skills_dir = Path(CONFIG["skills_dir"]).expanduser()
+    skill_dir = skills_dir / name
+    skill_file = skill_dir / "SKILL.md"
+
+    if skill_dir.exists() and not overwrite:
+        return {
+            "error": f"Skill '{name}' already exists at {skill_file}. Pass overwrite=true to replace.",
+            "existing_path": str(skill_file),
+        }
+
+    # Inject frontmatter if the caller didn't supply one
+    if not content.startswith("---"):
+        content = f"---\nname: {name}\ndescription: {description}\n---\n\n{content}"
+
+    skill_dir.mkdir(parents=True, exist_ok=True)
+    skill_file.write_text(content)
+
+    return {
+        "status": "created" if not overwrite else "written",
+        "skill_name": name,
+        "path": str(skill_file),
+        "bytes_written": len(content.encode()),
+        "description": description,
+        "note": "Skill is live immediately; teacher_get_skill can now resolve it by name.",
+    }
+
+
 def tool_status(params):
     """System health dashboard."""
     global last_improvement
@@ -413,6 +465,16 @@ TOOLS = {
         "handler": tool_get_skill,
         "description": "Get full SKILL.md content of a specific skill",
         "params": {"skill_name": "string (required)"}
+    },
+    "add_skill": {
+        "handler": tool_add_skill,
+        "description": "Write a new SKILL.md into the local skill library (hot-reloads immediately)",
+        "params": {
+            "name": "string (required, kebab-case)",
+            "description": "string (required, one-liner)",
+            "content": "string (required, full SKILL.md body — frontmatter auto-injected if missing)",
+            "overwrite": "bool (default false)"
+        }
     },
     "status": {
         "handler": tool_status,
