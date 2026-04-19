@@ -321,6 +321,9 @@ def tool_get_skill(params):
 ADD_SKILL_MAX_NAME_LEN = 64
 ADD_SKILL_MAX_DESC_LEN = 240
 ADD_SKILL_MAX_CONTENT_BYTES = 32_000
+ADD_SKILL_MAX_AUTHOR_LEN = 120
+ADD_SKILL_MAX_SOURCE_URL_LEN = 512
+ADD_SKILL_MAX_REASON_LEN = 500
 
 # Names that must never be overwritten regardless of overwrite flag
 ADD_SKILL_RESERVED_NAMES = {
@@ -371,6 +374,11 @@ def tool_add_skill(params):
       4. Directed actions                   -> kebab-case + length caps
       5. Multi-agent chain reactions        -> audit log of every write
       6. Misleading human summaries         -> full JSONL receipt returned
+
+    Provenance fields (optional):
+      - author       who or what produced the skill
+      - source_url   where the material came from (URL, DOI, doc path)
+      - reason       short, human-readable "why this skill exists now"
     """
     import re
     import hashlib
@@ -379,6 +387,11 @@ def tool_add_skill(params):
     description = (params.get("description") or "").strip()
     content = (params.get("content") or "").strip()
     overwrite = bool(params.get("overwrite", False))
+
+    # Provenance (optional)
+    author = (params.get("author") or "").strip()
+    source_url = (params.get("source_url") or "").strip()
+    reason = (params.get("reason") or "").strip()
 
     # --- presence checks -------------------------------------------------
     if not name:
@@ -396,6 +409,17 @@ def tool_add_skill(params):
     content_bytes = len(content.encode())
     if content_bytes > ADD_SKILL_MAX_CONTENT_BYTES:
         return {"error": f"Content exceeds {ADD_SKILL_MAX_CONTENT_BYTES} bytes ({content_bytes} given)"}
+    if len(author) > ADD_SKILL_MAX_AUTHOR_LEN:
+        return {"error": f"Author exceeds {ADD_SKILL_MAX_AUTHOR_LEN} chars ({len(author)} given)"}
+    if len(source_url) > ADD_SKILL_MAX_SOURCE_URL_LEN:
+        return {"error": f"Source URL exceeds {ADD_SKILL_MAX_SOURCE_URL_LEN} chars ({len(source_url)} given)"}
+    if len(reason) > ADD_SKILL_MAX_REASON_LEN:
+        return {"error": f"Reason exceeds {ADD_SKILL_MAX_REASON_LEN} chars ({len(reason)} given)"}
+    if source_url and not (source_url.startswith("http://")
+                           or source_url.startswith("https://")
+                           or source_url.startswith("file://")
+                           or source_url.startswith("/")):
+        return {"error": "source_url must be http(s)://, file://, or an absolute path"}
 
     # --- name format + reserved blocklist -------------------------------
     if not re.match(r"^[a-z][a-z0-9-]*[a-z0-9]$", name):
@@ -443,7 +467,7 @@ def tool_add_skill(params):
     skill_file.write_text(content)
 
     sha = hashlib.sha256(content.encode()).hexdigest()[:16]
-    _audit_skill_write({
+    audit_record = {
         "ts": datetime.now().isoformat(),
         "action": "add_skill",
         "name": name,
@@ -452,7 +476,14 @@ def tool_add_skill(params):
         "sha256_16": sha,
         "overwrite": overwrite,
         "description": description[:100],
-    })
+    }
+    if author:
+        audit_record["author"] = author
+    if source_url:
+        audit_record["source_url"] = source_url
+    if reason:
+        audit_record["reason"] = reason
+    _audit_skill_write(audit_record)
 
     return {
         "status": "created" if not overwrite else "written",
@@ -461,6 +492,9 @@ def tool_add_skill(params):
         "bytes_written": len(content.encode()),
         "sha256_16": sha,
         "description": description,
+        "author": author or None,
+        "source_url": source_url or None,
+        "reason": reason or None,
         "audit_log": str(Path(CONFIG["knowledge_dir"]).expanduser() / "skill-writes.jsonl"),
         "note": "Skill is live immediately; teacher_get_skill can now resolve it by name.",
     }
@@ -569,12 +603,15 @@ TOOLS = {
     },
     "add_skill": {
         "handler": tool_add_skill,
-        "description": "Write a new SKILL.md into the local skill library (hot-reloads immediately)",
+        "description": "Write a new SKILL.md into the local skill library (hot-reloads immediately). Provenance fields (author, source_url, reason) are optional but recommended — every write is recorded in the audit log.",
         "params": {
             "name": "string (required, kebab-case)",
-            "description": "string (required, one-liner)",
-            "content": "string (required, full SKILL.md body — frontmatter auto-injected if missing)",
-            "overwrite": "bool (default false)"
+            "description": "string (required, one-liner, ≤240 chars)",
+            "content": "string (required, ≤32,000 bytes; frontmatter auto-injected if missing)",
+            "overwrite": "bool (default false)",
+            "author": "string (optional, ≤120 chars) — who produced this",
+            "source_url": "string (optional, ≤512 chars) — http(s)://, file://, or absolute path",
+            "reason": "string (optional, ≤500 chars) — why this skill exists now"
         }
     },
     "status": {
