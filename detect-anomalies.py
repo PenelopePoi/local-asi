@@ -77,8 +77,23 @@ def load_audit_records():
             continue
 
 
+STOPWORDS = frozenset("""
+about above after again against all any and are because been before being below
+between both but can did does doing down during each few for from further had has
+have having here how into its itself just like more most only other our over
+same she should some such than that the their them then there these they this
+those through too under until very was were what when where which while who whom
+why will with would your about theyre youre well just like some more than less
+very really into this that was were have has been being also would could should
+will thats just now very about which said say know see get make take give let
+people things way really make made doing done didnt dont werent its lets heres
+theres wasnt isnt arent youre theyre weve theyve youve were
+""".split())
+
+
 def tokenize(text: str):
-    return set(w for w in re.findall(r"[a-z]{3,}", text.lower()) if len(w) < 20)
+    words = re.findall(r"[a-z]{4,}", text.lower())
+    return set(w for w in words if w not in STOPWORDS and len(w) < 20)
 
 
 def detect_score_collapses(entries):

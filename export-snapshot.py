@@ -76,13 +76,20 @@ EXCLUDED_DIRS = {"__pycache__", "node_modules", ".git", "lib", "dist",
 EXCLUDED_SUFFIXES = {".pyc", ".log", ".tsbuildinfo"}
 
 
-def should_skip(path: Path) -> bool:
-    if path.name in EXCLUDED_DIRS:
+def _name_blocked(name: str) -> bool:
+    if name in EXCLUDED_DIRS:
         return True
+    if name.startswith(".DS_"):
+        return True
+    return False
+
+
+def _path_skip(path: Path) -> bool:
     if path.suffix in EXCLUDED_SUFFIXES:
         return True
-    if path.name.startswith(".DS_"):
-        return True
+    for part in path.parts:
+        if _name_blocked(part):
+            return True
     return False
 
 
@@ -103,7 +110,7 @@ def iter_files(source: dict):
         return
 
     for p in base.rglob("*"):
-        if any(should_skip(part) for part in p.parts):
+        if _path_skip(p):
             continue
         if p.is_file() and not p.is_symlink():
             try:
