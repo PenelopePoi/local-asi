@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "weatherspoon-asi": {
+      "command": "python3",
+      "args": ["/Users/TroubleshootGuest/local-asi/mcp-server.py"],
+      "env": {}
+    }
+  }
+}

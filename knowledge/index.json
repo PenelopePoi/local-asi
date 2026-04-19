@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "id": "8edb66bba31f",
+      "query": "What is the Camelot wheel and how do DJs use it for harmonic mixing?",
+      "score": 43,
+      "timestamp": "2026-04-16T05:59:40.715795"
+    },
+    {
+      "id": "b4bacac617e5",
+      "query": "How do you create a professional DJ mix using Aurality Studio? Walk through loading tracks, beatmatching, EQ mixing, using effects, and recording the output.",
+      "score": 8,
+      "timestamp": "2026-04-16T06:35:50"
+    },
+    {
+      "id": "1bed54ebd83f",
+      "query": "A single mother in Florida wants to start a branding business with zero money. How does she use XELA Creative Branding Studio to build her first client package?",
+      "score": 9,
+      "timestamp": "2026-04-16T06:36:21"
+    },
+    {
+      "id": "d0cdf01fb6ed",
+      "query": "Explain the Teacher IDE multi-agent architecture. How do the coder agent, architect agent, and explore agent work together through InversifyJS dependency injection?",
+      "score": 8,
+      "timestamp": "2026-04-16T06:36:53"
+    },
+    {
+      "id": "df0ef650f255",
+      "query": "What is the Weatherspoon Manifesto? Why does it matter? How do the 5 ethical principles apply to building AI systems that serve everyone, not just the wealthy?",
+      "score": 10,
+      "timestamp": "2026-04-16T06:37:24"
+    },
+    {
+      "id": "40322be91f3f",
+      "query": "How does the 808 drum machine in Aurality work? Explain TR-808 synthesis, the step sequencer, and how to program a trap beat from scratch.",
+      "score": 7,
+      "timestamp": "2026-04-16T06:37:58"
+    },
+    {
+      "id": "e9fe4d340a6d",
+      "query": "A teenager wants to learn music production but has no money for school or software. Using only free tools, how do they go from zero to producing their first song?",
+      "score": 8,
+      "timestamp": "2026-04-16T06:38:28"
+    },
+    {
+      "id": "29f9c11fb65b",
+      "query": "How does the local ASI multi-agent swarm work? Explain the researcher-critic-synthesizer-improver-scorer pipeline and how knowledge compounds over time.",
+      "score": 8,
+      "timestamp": "2026-04-16T06:38:58"
+    },
+    {
+      "id": "fc9c0390d7de",
+      "query": "What security threats should a small business owner watch for? How do the detect-identity-theft, detect-business-fraud, and phishing-analysis skills protect them?",
+      "score": 7,
+      "timestamp": "2026-04-16T06:39:27"
+    },
+    {
+      "id": "db15ca29eca7",
+      "query": "Explain signal flow in audio production: source to effects to mixer to master to speakers. How does EQ, compression, and reverb fit into the chain?",
+      "score": 7,
+      "timestamp": "2026-04-16T06:39:56"
+    },
+    {
+      "id": "d34ca524e120",
+      "query": "What does From Pain to Purpose From Passion to Prophet mean? How does this philosophy change how we build technology, teach people, and share knowledge?",
+      "score": 10,
+      "timestamp": "2026-04-16T06:40:26"
+    },
+    {
+      "id": "9142838a7437",
+      "query": "How does the 808 drum machine in Aurality work? Explain TR-808 synthesis, the step sequencer, and how to program a trap beat from scratch.",
+      "score": 8.6,
+      "timestamp": "2026-04-17T14:19:26.310377"
+    },
+    {
+      "id": "fa0907cf32eb",
+      "query": "What security threats should a small business owner watch for? How do the detect-identity-theft, detect-business-fraud, and phishing-analysis skills protect them?",
+      "score": 8.6,
+      "timestamp": "2026-04-17T14:28:38.839879"
+    },
+    {
+      "id": "fe7be07226c5",
+      "query": "Explain signal flow in audio production: source to effects to mixer to master to speakers. How does EQ, compression, and reverb fit into the chain?",
+      "score": 8.6,
+      "timestamp": "2026-04-17T14:36:32.499298"
+    },
+    {
+      "id": "40a1c14af237",
+      "query": "How does the 808 drum machine in Aurality work? Explain TR-808 synthesis, the step sequencer, and how to program a trap beat from scratch.",
+      "score": 8.2,
+      "timestamp": "2026-04-18T01:07:56.055755"
+    },
+    {
+      "id": "12bf3e66f53c",
+      "query": "What security threats should a small business owner watch for? How do the detect-identity-theft, detect-business-fraud, and phishing-analysis skills protect them?",
+      "score": 8.6,
+      "timestamp": "2026-04-18T01:15:40.214832"
+    },
+    {
+      "id": "9a01aee6499d",
+      "query": "Explain signal flow in audio production: source to effects to mixer to master to speakers. How does EQ, compression, and reverb fit into the chain?",
+      "score": 8.4,
+      "timestamp": "2026-04-18T01:24:45.933263"
+    }
+  ],
+  "total_queries": 17,
+  "avg_score": 10.352941176470589
+}

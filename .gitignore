@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+dist/
+build/
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.bin
+*.gguf
+*.safetensors
