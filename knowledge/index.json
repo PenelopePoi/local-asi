@@ -107,8 +107,14 @@
       "query": "How does the 808 drum machine in Aurality work? Explain TR-808 synthesis, the step sequencer, and how to program a trap beat from scratch.",
       "score": 7.8,
       "timestamp": "2026-04-19T01:08:15.827432"
+    },
+    {
+      "id": "ee639ea76a42",
+      "query": "What security threats should a small business owner watch for? How do the detect-identity-theft, detect-business-fraud, and phishing-analysis skills protect them?",
+      "score": 8.6,
+      "timestamp": "2026-04-19T01:16:23.044486"
     }
   ],
-  "total_queries": 18,
-  "avg_score": 10.21111111111111
+  "total_queries": 19,
+  "avg_score": 10.126315789473685
 }
