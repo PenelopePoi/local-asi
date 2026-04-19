@@ -1,0 +1,11 @@
+{
+  "id": "25f84bf617b7",
+  "query": "What is Teacher IDE and how is it architected?",
+  "response": "Teacher IDE is an Eclipse Theia-based IDE fork with AI-powered tutoring capabilities.\n\nKey architecture:\n- 91 packages in a Lerna monorepo\n- React 18 + TypeScript + InversifyJS DI\n- 7 custom widgets: welcome, progress dashboard, curriculum browser, skill browser, learning analytics, AI history search, learning path\n- 3 AI agents: Tutor (Socratic), Explain (visual analogies), Review (teaching-focused)\n- Local ASI bridge for multi-agent research swarm\n- 300+ skills library symlinked from ~/.claude/skills/\n- Ollama integration for local LLM inference\n- MCP (Model Context Protocol) for external tool integration\n\nServices:\n- TeacherService: curriculum management, lesson loading, workspace templates\n- ProgressTrackingService: student progress, skill mastery, learning analytics\n- ASIBridgeService: bridge to local ASI swarm on port 8808\n\nCoding patterns:\n- ReactWidget base class for all UI\n- @injectable() + @inject() + @postConstruct() for DI\n- nls.localize() for all user-facing strings\n- codicon icons, var(--theia-*) CSS variables\n- ContributionProvider pattern for extensibility\n- WidgetFactory for panel registration\n",
+  "score": 10.0,
+  "timestamp": "2026-04-19T02:21:06.224276",
+  "metadata": {
+    "source": "teacher-repo-training",
+    "category": "architecture-summary"
+  }
+}

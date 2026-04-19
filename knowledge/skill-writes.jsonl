@@ -1,0 +1,1 @@
+{"ts": "2026-04-19T01:43:38.859193", "action": "add_skill", "name": "teacher-link-harden-test", "path": "/Users/TroubleshootGuest/.claude/skills/teacher-link-harden-test/SKILL.md", "bytes": 154, "sha256_16": "cfa51c9c07afc768", "overwrite": false, "description": "Proof that the hardened add_skill still accepts clean input."}

@@ -7,7 +7,8 @@
         "9142838a7437",
         "fe7be07226c5",
         "40a1c14af237",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "17f900c5": {
@@ -145,7 +146,8 @@
         "fe7be07226c5",
         "40a1c14af237",
         "9a01aee6499d",
-        "ea03baa70b76"
+        "ea03baa70b76",
+        "6ff47e0f8d81"
       ]
     },
     "933dd867": {
@@ -338,7 +340,8 @@
         "fa0907cf32eb",
         "fe7be07226c5",
         "9a01aee6499d",
-        "ee639ea76a42"
+        "ee639ea76a42",
+        "6ff47e0f8d81"
       ]
     },
     "60a3ca68": {
@@ -503,7 +506,8 @@
       "type": "concept",
       "mentions": [
         "fe7be07226c5",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "b61f5a5e": {
@@ -511,7 +515,8 @@
       "type": "concept",
       "mentions": [
         "fe7be07226c5",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "033c5986": {
@@ -519,7 +524,8 @@
       "type": "concept",
       "mentions": [
         "fe7be07226c5",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "e489ed8f": {
@@ -563,7 +569,8 @@
       "type": "concept",
       "mentions": [
         "fe7be07226c5",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "10b5e1e3": {
@@ -592,7 +599,8 @@
       "type": "concept",
       "mentions": [
         "fe7be07226c5",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "fe47aa7c": {
@@ -607,7 +615,8 @@
       "type": "concept",
       "mentions": [
         "fe7be07226c5",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "07f5d2d5": {
@@ -615,7 +624,8 @@
       "type": "concept",
       "mentions": [
         "fe7be07226c5",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "143a2994": {
@@ -659,7 +669,8 @@
       "type": "concept",
       "mentions": [
         "fe7be07226c5",
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "d7ba9bbf": {
@@ -677,7 +688,8 @@
         "12bf3e66f53c",
         "9a01aee6499d",
         "ea03baa70b76",
-        "ee639ea76a42"
+        "ee639ea76a42",
+        "6ff47e0f8d81"
       ]
     },
     "b7c30a97": {
@@ -870,7 +882,8 @@
       "mentions": [
         "12bf3e66f53c",
         "9a01aee6499d",
-        "ea03baa70b76"
+        "ea03baa70b76",
+        "6ff47e0f8d81"
       ]
     },
     "96c1d914": {
@@ -948,7 +961,8 @@
       "label": "high-pass",
       "type": "concept",
       "mentions": [
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "d53f18f2": {
@@ -969,14 +983,16 @@
       "label": "audio production",
       "type": "concept",
       "mentions": [
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "fd89784e": {
       "label": "production",
       "type": "concept",
       "mentions": [
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "497f758b": {
@@ -990,21 +1006,24 @@
       "label": "lost inside myself,",
       "type": "concept",
       "mentions": [
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "1b030e8b": {
       "label": "signal flow",
       "type": "concept",
       "mentions": [
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "36cd38f4": {
       "label": "source",
       "type": "concept",
       "mentions": [
-        "9a01aee6499d"
+        "9a01aee6499d",
+        "6ff47e0f8d81"
       ]
     },
     "43f54ef6": {
@@ -1223,6 +1242,140 @@
       "mentions": [
         "ee639ea76a42"
       ]
+    },
+    "8c39c1a9": {
+      "label": "within.",
+      "type": "concept",
+      "mentions": [
+        "6ff47e0f8d81"
+      ]
+    },
+    "bdd166af": {
+      "label": "raw",
+      "type": "concept",
+      "mentions": [
+        "6ff47e0f8d81"
+      ]
+    },
+    "cdaeeeba": {
+      "label": "set",
+      "type": "concept",
+      "mentions": [
+        "6ff47e0f8d81"
+      ]
+    },
+    "bb42c084": {
+      "label": "low-frequency",
+      "type": "concept",
+      "mentions": [
+        "6ff47e0f8d81"
+      ]
+    },
+    "df610180": {
+      "label": "additionally",
+      "type": "concept",
+      "mentions": [
+        "6ff47e0f8d81"
+      ]
+    },
+    "155da2d4": {
+      "label": "within,",
+      "type": "concept",
+      "mentions": [
+        "6ff47e0f8d81"
+      ]
+    },
+    "Readme": {
+      "description": "Teacher IDE overview and features",
+      "updated": "2026-04-19T02:21:05.900515"
+    },
+    "Claude": {
+      "description": "Development commands, architecture patterns, and coding guidelines",
+      "updated": "2026-04-19T02:21:05.917106"
+    },
+    "Teacher Protocol": {
+      "description": "Teacher service protocol \u2014 curriculum, lessons, workspace",
+      "updated": "2026-04-19T02:21:05.931730"
+    },
+    "Progress Protocol": {
+      "description": "Progress tracking protocol \u2014 student progress, skill mastery",
+      "updated": "2026-04-19T02:21:05.945920"
+    },
+    "Asi Bridge Protocol": {
+      "description": "ASI bridge protocol \u2014 connection to local ASI swarm",
+      "updated": "2026-04-19T02:21:05.960295"
+    },
+    "Teacher Preferences": {
+      "description": "Teacher preferences schema",
+      "updated": "2026-04-19T02:21:05.974274"
+    },
+    "Teacher Frontend Module": {
+      "description": "Frontend DI bindings for all Teacher widgets and agents",
+      "updated": "2026-04-19T02:21:05.987725"
+    },
+    "Tutor Agent": {
+      "description": "Tutor agent \u2014 Socratic teaching AI mentor",
+      "updated": "2026-04-19T02:21:06.010326"
+    },
+    "Explain Agent": {
+      "description": "Explain agent \u2014 code explanation with visual analogies",
+      "updated": "2026-04-19T02:21:06.024359"
+    },
+    "Review Agent": {
+      "description": "Review agent \u2014 teaching-focused code review",
+      "updated": "2026-04-19T02:21:06.037052"
+    },
+    "Teacher Welcome Widget": {
+      "description": "Welcome screen with status, actions, progress",
+      "updated": "2026-04-19T02:21:06.050445"
+    },
+    "Progress Dashboard Widget": {
+      "description": "Progress dashboard \u2014 lessons, scores, skills",
+      "updated": "2026-04-19T02:21:06.063746"
+    },
+    "Curriculum Browser Widget": {
+      "description": "Curriculum browser \u2014 course/module/lesson tree",
+      "updated": "2026-04-19T02:21:06.077430"
+    },
+    "Skill Browser Widget": {
+      "description": "Skill browser \u2014 search and filter 300+ skills",
+      "updated": "2026-04-19T02:21:06.091857"
+    },
+    "Learning Analytics Widget": {
+      "description": "Learning analytics \u2014 streaks, heatmap, weak areas",
+      "updated": "2026-04-19T02:21:06.104284"
+    },
+    "Ai History Search Widget": {
+      "description": "AI history search \u2014 filter past conversations",
+      "updated": "2026-04-19T02:21:06.119668"
+    },
+    "Learning Path Widget": {
+      "description": "Learning path \u2014 visual recommended pathway",
+      "updated": "2026-04-19T02:21:06.134664"
+    },
+    "Teacher": {
+      "description": "All Teacher widget styles \u2014 Theia CSS variables",
+      "updated": "2026-04-19T02:21:06.151213"
+    },
+    "Agent": {
+      "description": "Agent interface and PromptVariantSet",
+      "updated": "2026-04-19T02:21:06.165066"
+    },
+    "Chat Agents": {
+      "description": "Chat agent base classes",
+      "updated": "2026-04-19T02:21:06.178614"
+    },
+    "Ollama Preferences": {
+      "description": "Ollama provider preferences",
+      "updated": "2026-04-19T02:21:06.191752"
+    },
+    "Coding Guidelines": {
+      "description": "Theia coding guidelines \u2014 DI, naming, style, theming",
+      "updated": "2026-04-19T02:21:06.205011"
+    },
+    "Teacher IDE": {
+      "description": "AI-powered IDE for learning to code, built on Eclipse Theia",
+      "updated": "2026-04-19T02:21:06.227622"
     }
   },
   "edges": [
@@ -1331,7 +1484,7 @@
     {
       "source": "bd4c4ea1",
       "target": "979283b6",
-      "weight": 4,
+      "weight": 5,
       "type": "co-occurrence"
     },
     {
@@ -6473,19 +6626,19 @@
     {
       "source": "bd4c4ea1",
       "target": "328cc138",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "bd4c4ea1",
       "target": "b61f5a5e",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "bd4c4ea1",
       "target": "033c5986",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -6521,7 +6674,7 @@
     {
       "source": "bd4c4ea1",
       "target": "2bb387c5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -6545,13 +6698,13 @@
     {
       "source": "bd4c4ea1",
       "target": "a5ca0b58",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "bd4c4ea1",
       "target": "5ef76d30",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -6563,13 +6716,13 @@
     {
       "source": "bd4c4ea1",
       "target": "60df9e64",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "bd4c4ea1",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -6605,7 +6758,7 @@
     {
       "source": "bd4c4ea1",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7253,13 +7406,13 @@
     {
       "source": "328cc138",
       "target": "b61f5a5e",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "328cc138",
       "target": "033c5986",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7295,7 +7448,7 @@
     {
       "source": "328cc138",
       "target": "2bb387c5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7319,13 +7472,13 @@
     {
       "source": "328cc138",
       "target": "a5ca0b58",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "328cc138",
       "target": "5ef76d30",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7337,19 +7490,19 @@
     {
       "source": "328cc138",
       "target": "979283b6",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "328cc138",
       "target": "60df9e64",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "328cc138",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7385,7 +7538,7 @@
     {
       "source": "328cc138",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7397,7 +7550,7 @@
     {
       "source": "b61f5a5e",
       "target": "033c5986",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7433,7 +7586,7 @@
     {
       "source": "b61f5a5e",
       "target": "2bb387c5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7457,13 +7610,13 @@
     {
       "source": "b61f5a5e",
       "target": "a5ca0b58",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "b61f5a5e",
       "target": "5ef76d30",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7475,19 +7628,19 @@
     {
       "source": "b61f5a5e",
       "target": "979283b6",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "b61f5a5e",
       "target": "60df9e64",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "b61f5a5e",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7523,7 +7676,7 @@
     {
       "source": "b61f5a5e",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7565,7 +7718,7 @@
     {
       "source": "033c5986",
       "target": "2bb387c5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7589,13 +7742,13 @@
     {
       "source": "033c5986",
       "target": "a5ca0b58",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "033c5986",
       "target": "5ef76d30",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7607,19 +7760,19 @@
     {
       "source": "033c5986",
       "target": "979283b6",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "033c5986",
       "target": "60df9e64",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "033c5986",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -7655,7 +7808,7 @@
     {
       "source": "033c5986",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8255,13 +8408,13 @@
     {
       "source": "2bb387c5",
       "target": "a5ca0b58",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "2bb387c5",
       "target": "5ef76d30",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8273,19 +8426,19 @@
     {
       "source": "2bb387c5",
       "target": "979283b6",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "2bb387c5",
       "target": "60df9e64",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "2bb387c5",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8321,7 +8474,7 @@
     {
       "source": "2bb387c5",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8585,7 +8738,7 @@
     {
       "source": "a5ca0b58",
       "target": "5ef76d30",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8597,19 +8750,19 @@
     {
       "source": "a5ca0b58",
       "target": "979283b6",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "a5ca0b58",
       "target": "60df9e64",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "a5ca0b58",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8645,7 +8798,7 @@
     {
       "source": "a5ca0b58",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8663,19 +8816,19 @@
     {
       "source": "5ef76d30",
       "target": "979283b6",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "5ef76d30",
       "target": "60df9e64",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "5ef76d30",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8711,7 +8864,7 @@
     {
       "source": "5ef76d30",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8783,13 +8936,13 @@
     {
       "source": "979283b6",
       "target": "60df9e64",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "979283b6",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8825,7 +8978,7 @@
     {
       "source": "979283b6",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8837,7 +8990,7 @@
     {
       "source": "60df9e64",
       "target": "07f5d2d5",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8873,7 +9026,7 @@
     {
       "source": "60df9e64",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -8915,7 +9068,7 @@
     {
       "source": "07f5d2d5",
       "target": "84952299",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -9347,7 +9500,7 @@
     {
       "source": "4921c0e2",
       "target": "bd4c4ea1",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
@@ -9389,7 +9542,7 @@
     {
       "source": "4921c0e2",
       "target": "979283b6",
-      "weight": 3,
+      "weight": 4,
       "type": "co-occurrence"
     },
     {
@@ -11471,7 +11624,7 @@
     {
       "source": "4921c0e2",
       "target": "d5566982",
-      "weight": 3,
+      "weight": 4,
       "type": "co-occurrence"
     },
     {
@@ -13613,7 +13766,7 @@
     {
       "source": "4921c0e2",
       "target": "328cc138",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13631,19 +13784,19 @@
     {
       "source": "4921c0e2",
       "target": "84952299",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "4921c0e2",
       "target": "07f5d2d5",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "4921c0e2",
       "target": "2bb387c5",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13655,7 +13808,7 @@
     {
       "source": "4921c0e2",
       "target": "e4864d9b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13673,13 +13826,13 @@
     {
       "source": "4921c0e2",
       "target": "5ae111bb",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "4921c0e2",
       "target": "fd89784e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13691,37 +13844,37 @@
     {
       "source": "4921c0e2",
       "target": "5ef76d30",
-      "weight": 2,
+      "weight": 3,
       "type": "co-occurrence"
     },
     {
       "source": "4921c0e2",
       "target": "79183536",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "4921c0e2",
       "target": "a5ca0b58",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "4921c0e2",
       "target": "b61f5a5e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "4921c0e2",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "4921c0e2",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13739,7 +13892,7 @@
     {
       "source": "4921c0e2",
       "target": "033c5986",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13751,7 +13904,7 @@
     {
       "source": "4921c0e2",
       "target": "60df9e64",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13781,7 +13934,7 @@
     {
       "source": "328cc138",
       "target": "e4864d9b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13799,19 +13952,19 @@
     {
       "source": "328cc138",
       "target": "d5566982",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "328cc138",
       "target": "5ae111bb",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "328cc138",
       "target": "fd89784e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -13823,19 +13976,19 @@
     {
       "source": "328cc138",
       "target": "79183536",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "328cc138",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "328cc138",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14015,7 +14168,7 @@
     {
       "source": "bd4c4ea1",
       "target": "e4864d9b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14033,19 +14186,19 @@
     {
       "source": "bd4c4ea1",
       "target": "d5566982",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "bd4c4ea1",
       "target": "5ae111bb",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "bd4c4ea1",
       "target": "fd89784e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14057,19 +14210,19 @@
     {
       "source": "bd4c4ea1",
       "target": "79183536",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "bd4c4ea1",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "bd4c4ea1",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14231,7 +14384,7 @@
     {
       "source": "84952299",
       "target": "e4864d9b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14248,656 +14401,656 @@
     },
     {
       "source": "84952299",
-      "target": "d5566982",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "84952299",
-      "target": "5ae111bb",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "84952299",
-      "target": "fd89784e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "84952299",
-      "target": "497f758b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "84952299",
-      "target": "79183536",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "84952299",
-      "target": "1b030e8b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "84952299",
-      "target": "36cd38f4",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "84952299",
-      "target": "43f54ef6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "0e04c221",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "e4864d9b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "d53f18f2",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "fef2576d",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "d5566982",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "5ae111bb",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "fd89784e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "497f758b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "79183536",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "1b030e8b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "36cd38f4",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "07f5d2d5",
-      "target": "43f54ef6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "0e04c221",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "e4864d9b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "d53f18f2",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "fef2576d",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "d5566982",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "5ae111bb",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "fd89784e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "497f758b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "79183536",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "1b030e8b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "36cd38f4",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "2bb387c5",
-      "target": "43f54ef6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "e4864d9b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "d53f18f2",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "fef2576d",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "979283b6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "d5566982",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "5ae111bb",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "fd89784e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "497f758b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "5ef76d30",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "79183536",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "a5ca0b58",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "b61f5a5e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "1b030e8b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "36cd38f4",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "43f54ef6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "4da463dc",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "033c5986",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "99d6df7b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "60df9e64",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "0e04c221",
-      "target": "ce495ab8",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "d53f18f2",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "fef2576d",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "979283b6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "d5566982",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "5ae111bb",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "fd89784e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "497f758b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "5ef76d30",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "79183536",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "a5ca0b58",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "b61f5a5e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "1b030e8b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "36cd38f4",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "43f54ef6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "4da463dc",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "033c5986",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "99d6df7b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "60df9e64",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "e4864d9b",
-      "target": "ce495ab8",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "fef2576d",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "979283b6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "d5566982",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "5ae111bb",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "fd89784e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "497f758b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "5ef76d30",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "79183536",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "a5ca0b58",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "b61f5a5e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "1b030e8b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "36cd38f4",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "43f54ef6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "4da463dc",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "033c5986",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "99d6df7b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "60df9e64",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "d53f18f2",
-      "target": "ce495ab8",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "979283b6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "d5566982",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "5ae111bb",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "fd89784e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "497f758b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "5ef76d30",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "79183536",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "a5ca0b58",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "b61f5a5e",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "1b030e8b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "36cd38f4",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "43f54ef6",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "4da463dc",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "033c5986",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "99d6df7b",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "60df9e64",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "fef2576d",
-      "target": "ce495ab8",
-      "weight": 1,
-      "type": "co-occurrence"
-    },
-    {
-      "source": "979283b6",
       "target": "d5566982",
       "weight": 2,
       "type": "co-occurrence"
     },
     {
-      "source": "979283b6",
+      "source": "84952299",
+      "target": "5ae111bb",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "84952299",
+      "target": "fd89784e",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "84952299",
+      "target": "497f758b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "84952299",
+      "target": "79183536",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "84952299",
+      "target": "1b030e8b",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "84952299",
+      "target": "36cd38f4",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "84952299",
+      "target": "43f54ef6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "0e04c221",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "e4864d9b",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "d53f18f2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "fef2576d",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "d5566982",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "5ae111bb",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "fd89784e",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "497f758b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "79183536",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "1b030e8b",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "36cd38f4",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "43f54ef6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "0e04c221",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "e4864d9b",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "d53f18f2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "fef2576d",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "d5566982",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "5ae111bb",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "fd89784e",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "497f758b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "79183536",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "1b030e8b",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "36cd38f4",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "43f54ef6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "e4864d9b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "d53f18f2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "fef2576d",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "979283b6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "d5566982",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
       "target": "5ae111bb",
       "weight": 1,
       "type": "co-occurrence"
     },
     {
-      "source": "979283b6",
+      "source": "0e04c221",
       "target": "fd89784e",
       "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "497f758b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "5ef76d30",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "79183536",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "a5ca0b58",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "b61f5a5e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "36cd38f4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "43f54ef6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "4da463dc",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "033c5986",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "99d6df7b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "60df9e64",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "0e04c221",
+      "target": "ce495ab8",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "d53f18f2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "fef2576d",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "979283b6",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "d5566982",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "5ae111bb",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "fd89784e",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "497f758b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "5ef76d30",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "79183536",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "a5ca0b58",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "b61f5a5e",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "1b030e8b",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "36cd38f4",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "43f54ef6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "4da463dc",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "033c5986",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "99d6df7b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "60df9e64",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "ce495ab8",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "fef2576d",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "979283b6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "d5566982",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "5ae111bb",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "fd89784e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "497f758b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "5ef76d30",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "79183536",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "a5ca0b58",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "b61f5a5e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "36cd38f4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "43f54ef6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "4da463dc",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "033c5986",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "99d6df7b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "60df9e64",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d53f18f2",
+      "target": "ce495ab8",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "979283b6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "d5566982",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "5ae111bb",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "fd89784e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "497f758b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "5ef76d30",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "79183536",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "a5ca0b58",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "b61f5a5e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "36cd38f4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "43f54ef6",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "4da463dc",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "033c5986",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "99d6df7b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "60df9e64",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fef2576d",
+      "target": "ce495ab8",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "d5566982",
+      "weight": 3,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "5ae111bb",
+      "weight": 2,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "fd89784e",
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14909,19 +15062,19 @@
     {
       "source": "979283b6",
       "target": "79183536",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "979283b6",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "979283b6",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14933,13 +15086,13 @@
     {
       "source": "d5566982",
       "target": "5ae111bb",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "d5566982",
       "target": "fd89784e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14951,37 +15104,37 @@
     {
       "source": "d5566982",
       "target": "5ef76d30",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "d5566982",
       "target": "79183536",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "d5566982",
       "target": "a5ca0b58",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "d5566982",
       "target": "b61f5a5e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "d5566982",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "d5566982",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -14999,7 +15152,7 @@
     {
       "source": "d5566982",
       "target": "033c5986",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15011,7 +15164,7 @@
     {
       "source": "d5566982",
       "target": "60df9e64",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15023,7 +15176,7 @@
     {
       "source": "5ae111bb",
       "target": "fd89784e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15035,37 +15188,37 @@
     {
       "source": "5ae111bb",
       "target": "5ef76d30",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "5ae111bb",
       "target": "79183536",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "5ae111bb",
       "target": "a5ca0b58",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "5ae111bb",
       "target": "b61f5a5e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "5ae111bb",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "5ae111bb",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15083,7 +15236,7 @@
     {
       "source": "5ae111bb",
       "target": "033c5986",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15095,7 +15248,7 @@
     {
       "source": "5ae111bb",
       "target": "60df9e64",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15113,37 +15266,37 @@
     {
       "source": "fd89784e",
       "target": "5ef76d30",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "fd89784e",
       "target": "79183536",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "fd89784e",
       "target": "a5ca0b58",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "fd89784e",
       "target": "b61f5a5e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "fd89784e",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "fd89784e",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15161,7 +15314,7 @@
     {
       "source": "fd89784e",
       "target": "033c5986",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15173,7 +15326,7 @@
     {
       "source": "fd89784e",
       "target": "60df9e64",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15257,19 +15410,19 @@
     {
       "source": "5ef76d30",
       "target": "79183536",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "5ef76d30",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "5ef76d30",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15281,25 +15434,25 @@
     {
       "source": "79183536",
       "target": "a5ca0b58",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "79183536",
       "target": "b61f5a5e",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "79183536",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "79183536",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15317,7 +15470,7 @@
     {
       "source": "79183536",
       "target": "033c5986",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15329,7 +15482,7 @@
     {
       "source": "79183536",
       "target": "60df9e64",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15341,13 +15494,13 @@
     {
       "source": "a5ca0b58",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "a5ca0b58",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15359,13 +15512,13 @@
     {
       "source": "b61f5a5e",
       "target": "1b030e8b",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
       "source": "b61f5a5e",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15377,7 +15530,7 @@
     {
       "source": "1b030e8b",
       "target": "36cd38f4",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15395,7 +15548,7 @@
     {
       "source": "1b030e8b",
       "target": "033c5986",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15407,7 +15560,7 @@
     {
       "source": "1b030e8b",
       "target": "60df9e64",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15431,7 +15584,7 @@
     {
       "source": "36cd38f4",
       "target": "033c5986",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -15443,7 +15596,7 @@
     {
       "source": "36cd38f4",
       "target": "60df9e64",
-      "weight": 1,
+      "weight": 2,
       "type": "co-occurrence"
     },
     {
@@ -19735,6 +19888,1275 @@
       "target": "4b9e4636",
       "weight": 1,
       "type": "co-occurrence"
+    },
+    {
+      "source": "bd4c4ea1",
+      "target": "8c39c1a9",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bd4c4ea1",
+      "target": "bdd166af",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bd4c4ea1",
+      "target": "cdaeeeba",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bd4c4ea1",
+      "target": "bb42c084",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bd4c4ea1",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bd4c4ea1",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "8c39c1a9",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "bdd166af",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "cdaeeeba",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "bb42c084",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "979283b6",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "bdd166af",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "5ae111bb",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "cdaeeeba",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "07f5d2d5",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "328cc138",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "bb42c084",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "e4864d9b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "4921c0e2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "79183536",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "033c5986",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "a5ca0b58",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "84952299",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "5ef76d30",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "b61f5a5e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "36cd38f4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "2bb387c5",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "60df9e64",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "fd89784e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "d5566982",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "8c39c1a9",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "5ae111bb",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "cdaeeeba",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "07f5d2d5",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "328cc138",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "bb42c084",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "e4864d9b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "4921c0e2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "79183536",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "033c5986",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "a5ca0b58",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "84952299",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "5ef76d30",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "b61f5a5e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "36cd38f4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "2bb387c5",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "60df9e64",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "fd89784e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "d5566982",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bdd166af",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "5ae111bb",
+      "target": "cdaeeeba",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "5ae111bb",
+      "target": "bb42c084",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "5ae111bb",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "5ae111bb",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "07f5d2d5",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "328cc138",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "bb42c084",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "e4864d9b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "4921c0e2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "79183536",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "033c5986",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "a5ca0b58",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "84952299",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "5ef76d30",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "b61f5a5e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "36cd38f4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "2bb387c5",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "60df9e64",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "fd89784e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "d5566982",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "cdaeeeba",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "bb42c084",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "07f5d2d5",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "328cc138",
+      "target": "bb42c084",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "328cc138",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "328cc138",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "df610180",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "e4864d9b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "4921c0e2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "79183536",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "033c5986",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "a5ca0b58",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "84952299",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "5ef76d30",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "b61f5a5e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "36cd38f4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "2bb387c5",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "60df9e64",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "fd89784e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "d5566982",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "bb42c084",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "e4864d9b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "4921c0e2",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "79183536",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "033c5986",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "a5ca0b58",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "84952299",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "5ef76d30",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "b61f5a5e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "36cd38f4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "2bb387c5",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "60df9e64",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "fd89784e",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "d5566982",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "df610180",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "e4864d9b",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "4921c0e2",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "79183536",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "033c5986",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "a5ca0b58",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "84952299",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "5ef76d30",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "b61f5a5e",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "36cd38f4",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "2bb387c5",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "60df9e64",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "fd89784e",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "d5566982",
+      "target": "155da2d4",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "source": "155da2d4",
+      "target": "1b030e8b",
+      "weight": 1,
+      "type": "co-occurrence"
+    },
+    {
+      "from": "Readme",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Readme",
+      "to": "Documentation",
+      "type": "related_to"
+    },
+    {
+      "from": "Claude",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Claude",
+      "to": "Documentation",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Protocol",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Protocol",
+      "to": "Service Protocol",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Protocol",
+      "to": "RPC",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Protocol",
+      "to": "Backend",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Protocol",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Protocol",
+      "to": "Service Protocol",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Protocol",
+      "to": "RPC",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Protocol",
+      "to": "Backend",
+      "type": "related_to"
+    },
+    {
+      "from": "Asi Bridge Protocol",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Asi Bridge Protocol",
+      "to": "Service Protocol",
+      "type": "related_to"
+    },
+    {
+      "from": "Asi Bridge Protocol",
+      "to": "RPC",
+      "type": "related_to"
+    },
+    {
+      "from": "Asi Bridge Protocol",
+      "to": "Backend",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Preferences",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Preferences",
+      "to": "Configuration",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Preferences",
+      "to": "Settings",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Frontend Module",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Frontend Module",
+      "to": "Core",
+      "type": "related_to"
+    },
+    {
+      "from": "Tutor Agent",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Tutor Agent",
+      "to": "AI Agents",
+      "type": "related_to"
+    },
+    {
+      "from": "Tutor Agent",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Tutor Agent",
+      "to": "Chat",
+      "type": "related_to"
+    },
+    {
+      "from": "Tutor Agent",
+      "to": "Ollama",
+      "type": "related_to"
+    },
+    {
+      "from": "Explain Agent",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Explain Agent",
+      "to": "AI Agents",
+      "type": "related_to"
+    },
+    {
+      "from": "Explain Agent",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Explain Agent",
+      "to": "Chat",
+      "type": "related_to"
+    },
+    {
+      "from": "Explain Agent",
+      "to": "Ollama",
+      "type": "related_to"
+    },
+    {
+      "from": "Review Agent",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Review Agent",
+      "to": "AI Agents",
+      "type": "related_to"
+    },
+    {
+      "from": "Review Agent",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Review Agent",
+      "to": "Chat",
+      "type": "related_to"
+    },
+    {
+      "from": "Review Agent",
+      "to": "Ollama",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Welcome Widget",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Welcome Widget",
+      "to": "UI Widgets",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Welcome Widget",
+      "to": "React",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Welcome Widget",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher Welcome Widget",
+      "to": "ReactWidget",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Dashboard Widget",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Dashboard Widget",
+      "to": "UI Widgets",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Dashboard Widget",
+      "to": "React",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Dashboard Widget",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Progress Dashboard Widget",
+      "to": "ReactWidget",
+      "type": "related_to"
+    },
+    {
+      "from": "Curriculum Browser Widget",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Curriculum Browser Widget",
+      "to": "UI Widgets",
+      "type": "related_to"
+    },
+    {
+      "from": "Curriculum Browser Widget",
+      "to": "React",
+      "type": "related_to"
+    },
+    {
+      "from": "Curriculum Browser Widget",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Curriculum Browser Widget",
+      "to": "ReactWidget",
+      "type": "related_to"
+    },
+    {
+      "from": "Skill Browser Widget",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Skill Browser Widget",
+      "to": "UI Widgets",
+      "type": "related_to"
+    },
+    {
+      "from": "Skill Browser Widget",
+      "to": "React",
+      "type": "related_to"
+    },
+    {
+      "from": "Skill Browser Widget",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Skill Browser Widget",
+      "to": "ReactWidget",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Analytics Widget",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Analytics Widget",
+      "to": "UI Widgets",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Analytics Widget",
+      "to": "React",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Analytics Widget",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Analytics Widget",
+      "to": "ReactWidget",
+      "type": "related_to"
+    },
+    {
+      "from": "Ai History Search Widget",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Ai History Search Widget",
+      "to": "UI Widgets",
+      "type": "related_to"
+    },
+    {
+      "from": "Ai History Search Widget",
+      "to": "React",
+      "type": "related_to"
+    },
+    {
+      "from": "Ai History Search Widget",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Ai History Search Widget",
+      "to": "ReactWidget",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Path Widget",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Path Widget",
+      "to": "UI Widgets",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Path Widget",
+      "to": "React",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Path Widget",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Learning Path Widget",
+      "to": "ReactWidget",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher",
+      "to": "Styling",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher",
+      "to": "CSS",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher",
+      "to": "Theming",
+      "type": "related_to"
+    },
+    {
+      "from": "Agent",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Agent",
+      "to": "AI Agents",
+      "type": "related_to"
+    },
+    {
+      "from": "Agent",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Agent",
+      "to": "Chat",
+      "type": "related_to"
+    },
+    {
+      "from": "Agent",
+      "to": "Ollama",
+      "type": "related_to"
+    },
+    {
+      "from": "Chat Agents",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Chat Agents",
+      "to": "AI Agents",
+      "type": "related_to"
+    },
+    {
+      "from": "Chat Agents",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Chat Agents",
+      "to": "Chat",
+      "type": "related_to"
+    },
+    {
+      "from": "Chat Agents",
+      "to": "Ollama",
+      "type": "related_to"
+    },
+    {
+      "from": "Ollama Preferences",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Ollama Preferences",
+      "to": "Configuration",
+      "type": "related_to"
+    },
+    {
+      "from": "Ollama Preferences",
+      "to": "Settings",
+      "type": "related_to"
+    },
+    {
+      "from": "Coding Guidelines",
+      "to": "Teacher IDE",
+      "type": "related_to"
+    },
+    {
+      "from": "Coding Guidelines",
+      "to": "Documentation",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "Theia",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "React",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "TypeScript",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "InversifyJS",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "Ollama",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "ASI",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "MCP",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "Curriculum",
+      "type": "related_to"
+    },
+    {
+      "from": "Teacher IDE",
+      "to": "Progress Tracking",
+      "type": "related_to"
     }
   ],
   "entry_concepts": {
@@ -19993,6 +21415,33 @@
       "e91e6348",
       "ff483d1f",
       "4b9e4636"
+    ],
+    "6ff47e0f8d81": [
+      "bd4c4ea1",
+      "979283b6",
+      "8c39c1a9",
+      "bdd166af",
+      "5ae111bb",
+      "cdaeeeba",
+      "07f5d2d5",
+      "328cc138",
+      "bb42c084",
+      "df610180",
+      "e4864d9b",
+      "4921c0e2",
+      "79183536",
+      "033c5986",
+      "a5ca0b58",
+      "84952299",
+      "5ef76d30",
+      "b61f5a5e",
+      "36cd38f4",
+      "2bb387c5",
+      "60df9e64",
+      "fd89784e",
+      "d5566982",
+      "155da2d4",
+      "1b030e8b"
     ]
   }
 }

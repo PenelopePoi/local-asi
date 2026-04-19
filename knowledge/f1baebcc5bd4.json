@@ -1,0 +1,13 @@
+{
+  "id": "f1baebcc5bd4",
+  "query": "What is packages/teacher-core/src/common/teacher-protocol.ts in the Teacher IDE and what does it do?",
+  "response": "# packages/teacher-core/src/common/teacher-protocol.ts\n\n**Description:** Teacher service protocol \u2014 curriculum, lessons, workspace\n\n**Content:**\n```\nexport const TEACHER_SERVICE_PATH = '/services/teacher';\n\nexport interface LessonManifest {\n    id: string;\n    title: string;\n    objectives: string[];\n    hints: string[];\n    assessmentCriteria: string[];\n    estimatedMinutes: number;\n    prerequisiteSkills: string[];\n}\n\nexport interface CurriculumDefinition {\n    id: string;\n    title: string;\n    description: string;\n    modules: CurriculumModule[];\n    creditHours?: number;\n}\n\nexport interface CurriculumModule {\n    id: string;\n    title: string;\n    lessons: LessonManifest[];\n}\n\nexport const TeacherService = Symbol('TeacherService');\nexport interface TeacherService {\n    getActiveLessonContext(): Promise<LessonManifest | undefined>;\n    getCurriculum(): Promise<CurriculumDefinition[]>;\n    startLesson(lessonId: string): Promise<void>;\n    checkWork(lessonId: string): Promise<AssessmentResult>;\n    getHint(lessonId: string, hintLevel: number): Promise<string>;\n}\n\nexport interface AssessmentResult {\n    lessonId: string;\n    passed: boolean;\n    score: number;\n    feedback: string[];\n    timestamp: string;\n}\n\n```",
+  "score": 9.0,
+  "timestamp": "2026-04-19T02:21:05.929361",
+  "metadata": {
+    "source": "teacher-repo-training",
+    "file": "packages/teacher-core/src/common/teacher-protocol.ts",
+    "description": "Teacher service protocol \u2014 curriculum, lessons, workspace",
+    "category": "codebase"
+  }
+}

@@ -113,8 +113,152 @@
       "query": "What security threats should a small business owner watch for? How do the detect-identity-theft, detect-business-fraud, and phishing-analysis skills protect them?",
       "score": 8.6,
       "timestamp": "2026-04-19T01:16:23.044486"
+    },
+    {
+      "id": "6ff47e0f8d81",
+      "query": "Explain signal flow in audio production: source to effects to mixer to master to speakers. How does EQ, compression, and reverb fit into the chain?",
+      "score": 8.6,
+      "timestamp": "2026-04-19T01:26:46.767723"
+    },
+    {
+      "id": "add2f2d25ee6",
+      "query": "What is README.md in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:05.896579"
+    },
+    {
+      "id": "e18439cf43de",
+      "query": "What is CLAUDE.md in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:05.913798"
+    },
+    {
+      "id": "f1baebcc5bd4",
+      "query": "What is packages/teacher-core/src/common/teacher-protocol.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:05.929361"
+    },
+    {
+      "id": "41db7f3efc48",
+      "query": "What is packages/teacher-core/src/common/progress-protocol.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:05.943540"
+    },
+    {
+      "id": "a858ee00525d",
+      "query": "What is packages/teacher-core/src/common/asi-bridge-protocol.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:05.958053"
+    },
+    {
+      "id": "7b93b3c3d567",
+      "query": "What is packages/teacher-core/src/common/teacher-preferences.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:05.971352"
+    },
+    {
+      "id": "e3f76004ad86",
+      "query": "What is packages/teacher-core/src/browser/teacher-frontend-module.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:05.985571"
+    },
+    {
+      "id": "d63c3ad0e26d",
+      "query": "What is packages/teacher-core/src/browser/agents/tutor-agent.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.008076"
+    },
+    {
+      "id": "55d30f3ca6e7",
+      "query": "What is packages/teacher-core/src/browser/agents/explain-agent.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.021657"
+    },
+    {
+      "id": "53af25d294bf",
+      "query": "What is packages/teacher-core/src/browser/agents/review-agent.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.034883"
+    },
+    {
+      "id": "5975a708e635",
+      "query": "What is packages/teacher-core/src/browser/widgets/teacher-welcome-widget.tsx in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.048166"
+    },
+    {
+      "id": "4fb28bf98ca9",
+      "query": "What is packages/teacher-core/src/browser/widgets/progress-dashboard-widget.tsx in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.061596"
+    },
+    {
+      "id": "8bb35e25cb8e",
+      "query": "What is packages/teacher-core/src/browser/widgets/curriculum-browser-widget.tsx in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.075018"
+    },
+    {
+      "id": "fec9ff1d2c4e",
+      "query": "What is packages/teacher-core/src/browser/widgets/skill-browser-widget.tsx in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.089586"
+    },
+    {
+      "id": "711f28366883",
+      "query": "What is packages/teacher-core/src/browser/widgets/learning-analytics-widget.tsx in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.102083"
+    },
+    {
+      "id": "a59ec4343758",
+      "query": "What is packages/teacher-core/src/browser/widgets/ai-history-search-widget.tsx in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.117460"
+    },
+    {
+      "id": "ac39b64b0daf",
+      "query": "What is packages/teacher-core/src/browser/widgets/learning-path-widget.tsx in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.132399"
+    },
+    {
+      "id": "e19c88fe1745",
+      "query": "What is packages/teacher-core/src/browser/style/teacher.css in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.148944"
+    },
+    {
+      "id": "1a8f0a6eb0fb",
+      "query": "What is packages/ai-core/src/common/agent.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.162834"
+    },
+    {
+      "id": "e435cfd65362",
+      "query": "What is packages/ai-chat/src/common/chat-agents.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.176168"
+    },
+    {
+      "id": "a1f91d2c0650",
+      "query": "What is packages/ai-ollama/src/common/ollama-preferences.ts in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.189444"
+    },
+    {
+      "id": "4473686d3d5b",
+      "query": "What is doc/coding-guidelines.md in the Teacher IDE and what does it do?",
+      "score": 9.0,
+      "timestamp": "2026-04-19T02:21:06.202585"
+    },
+    {
+      "id": "25f84bf617b7",
+      "query": "What is Teacher IDE and how is it architected?",
+      "score": 10.0,
+      "timestamp": "2026-04-19T02:21:06.224276"
     }
   ],
-  "total_queries": 19,
-  "avg_score": 10.126315789473685
+  "total_queries": 43,
+  "avg_score": 9.511627906976743
 }

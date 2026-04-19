@@ -1,0 +1,13 @@
+{
+  "id": "a858ee00525d",
+  "query": "What is packages/teacher-core/src/common/asi-bridge-protocol.ts in the Teacher IDE and what does it do?",
+  "response": "# packages/teacher-core/src/common/asi-bridge-protocol.ts\n\n**Description:** ASI bridge protocol \u2014 connection to local ASI swarm\n\n**Content:**\n```\nexport const ASI_BRIDGE_SERVICE_PATH = '/services/asi-bridge';\n\nexport const ASIBridgeService = Symbol('ASIBridgeService');\nexport interface ASIBridgeService {\n    query(prompt: string, context?: Record<string, unknown>): Promise<ASIResponse>;\n    getStatus(): Promise<ASIStatus>;\n    teach(topic: string, studentLevel: string): Promise<ASIResponse>;\n}\n\nexport interface ASIResponse {\n    answer: string;\n    confidence: number;\n    sources: string[];\n    researcherCount: number;\n    processingTimeMs: number;\n}\n\nexport interface ASIStatus {\n    running: boolean;\n    ollamaConnected: boolean;\n    knowledgeEntries: number;\n    modelName: string;\n}\n\n```",
+  "score": 9.0,
+  "timestamp": "2026-04-19T02:21:05.958053",
+  "metadata": {
+    "source": "teacher-repo-training",
+    "file": "packages/teacher-core/src/common/asi-bridge-protocol.ts",
+    "description": "ASI bridge protocol \u2014 connection to local ASI swarm",
+    "category": "codebase"
+  }
+}

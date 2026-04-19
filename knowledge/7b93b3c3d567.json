@@ -1,0 +1,13 @@
+{
+  "id": "7b93b3c3d567",
+  "query": "What is packages/teacher-core/src/common/teacher-preferences.ts in the Teacher IDE and what does it do?",
+  "response": "# packages/teacher-core/src/common/teacher-preferences.ts\n\n**Description:** Teacher preferences schema\n\n**Content:**\n```\nimport { PreferenceSchema } from '@theia/core/lib/common/preferences/preference-schema';\n\nexport const TeacherPreferencesSchema: PreferenceSchema = {\n    properties: {\n        'teacher.asi.enabled': {\n            type: 'boolean',\n            default: true,\n            description: 'Enable the Local ASI multi-agent system for deep explanations.'\n        },\n        'teacher.asi.host': {\n            type: 'string',\n            default: 'http://localhost:8765',\n            description: 'Host URL for the ASI bridge HTTP service.'\n        },\n        'teacher.asi.path': {\n            type: 'string',\n            default: '',\n            description: 'Path to asi.py. Leave empty to use the bundled version.'\n        },\n        'teacher.curriculum.directory': {\n            type: 'string',\n            default: '',\n            description: 'Directory containing curriculum definition files.'\n        },\n        'teacher.progress.storageDirectory': {\n            type: 'string',\n            default: '',\n            description: 'Directory for storing student progress. Defaults to user data directory.'\n        },\n        'teacher.tutor.skillLevel': {\n            type: 'string',\n            enum: ['beginner', 'intermediate', 'advanced'],\n            default: 'beginner',\n            description: 'Student skill level. Adjusts explanation depth and Socratic questioning intensity.'\n        },\n        'teacher.tutor.useSocraticMethod': {\n            type: 'boolean',\n            default: true,\n            description: 'Use Socratic questioning to guide learning instead of giving direct answers.'\n        },\n        'teacher.ollama.defaultModels': {\n            type: 'array',\n            items: { type: 'string' },\n            default: ['qwen2.5:7b', 'bonsai-8b'],\n            description: 'Default Ollama models for Teacher. First model is primary, rest are fallbacks.'\n        }\n    }\n};\n\n```",
+  "score": 9.0,
+  "timestamp": "2026-04-19T02:21:05.971352",
+  "metadata": {
+    "source": "teacher-repo-training",
+    "file": "packages/teacher-core/src/common/teacher-preferences.ts",
+    "description": "Teacher preferences schema",
+    "category": "codebase"
+  }
+}

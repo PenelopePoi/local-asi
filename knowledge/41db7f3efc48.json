@@ -1,0 +1,13 @@
+{
+  "id": "41db7f3efc48",
+  "query": "What is packages/teacher-core/src/common/progress-protocol.ts in the Teacher IDE and what does it do?",
+  "response": "# packages/teacher-core/src/common/progress-protocol.ts\n\n**Description:** Progress tracking protocol \u2014 student progress, skill mastery\n\n**Content:**\n```\nexport const PROGRESS_SERVICE_PATH = '/services/progress';\n\nexport const ProgressTrackingService = Symbol('ProgressTrackingService');\nexport interface ProgressTrackingService {\n    getProgress(): Promise<StudentProgress>;\n    recordLessonStart(lessonId: string): Promise<void>;\n    recordLessonCompletion(lessonId: string, score: number): Promise<void>;\n    recordSkillPractice(skill: string, duration: number): Promise<void>;\n    getSkillMastery(): Promise<Map<string, number>>;\n    getSummary(): Promise<ProgressSummary>;\n}\n\nexport interface StudentProgress {\n    studentId: string;\n    enrolledCourses: CourseProgress[];\n    skillMastery: Record<string, number>;\n    totalTimeMinutes: number;\n    lastActive: string;\n    lessonsCompleted: number;\n    lessonsInProgress: number;\n}\n\nexport interface CourseProgress {\n    courseId: string;\n    courseTitle: string;\n    lessonsTotal: number;\n    lessonsCompleted: number;\n    currentLessonId?: string;\n    startedAt: string;\n    lastActivityAt: string;\n}\n\nexport interface LessonProgress {\n    lessonId: string;\n    status: 'not-started' | 'in-progress' | 'completed' | 'mastered';\n    score?: number;\n    attempts: number;\n    completedAt?: string;\n    timeSpentMinutes: number;\n}\n\nexport interface ProgressSummary {\n    totalLessons: number;\n    completedLessons: number;\n    averageScore: number;\n    totalTimeHours: number;\n    topSkills: Array<{ skill: string; mastery: number }>;\n    suggestedNextLesson?: string;\n}\n\n```",
+  "score": 9.0,
+  "timestamp": "2026-04-19T02:21:05.943540",
+  "metadata": {
+    "source": "teacher-repo-training",
+    "file": "packages/teacher-core/src/common/progress-protocol.ts",
+    "description": "Progress tracking protocol \u2014 student progress, skill mastery",
+    "category": "codebase"
+  }
+}

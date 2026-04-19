@@ -1814,7 +1814,7 @@ def serve(port: int = 8765):
     from http.server import HTTPServer, BaseHTTPRequestHandler
     import json as _json
 
-    swarm = AgentSwarm()
+    swarm = ASISwarm()
 
     class ASIHandler(BaseHTTPRequestHandler):
         def do_GET(self):
