@@ -1821,8 +1821,8 @@ def serve(port: int = 8765):
             if self.path == '/status':
                 status = {
                     'running': True,
-                    'ollama_connected': swarm.check_ollama(),
-                    'knowledge_entries': len(swarm.knowledge.entries) if hasattr(swarm, 'knowledge') else 0,
+                    'ollama_connected': ollama_available(),
+                    'knowledge_entries': len(swarm.kb.index) if hasattr(swarm, 'kb') and hasattr(swarm.kb, 'index') else 0,
                     'model_name': CONFIG.get('model', 'unknown')
                 }
                 self._respond(200, status)
