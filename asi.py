@@ -1809,5 +1809,78 @@ def main():
         except Exception as e:
             print(f"\n  [Error] {e}\n")
 
+def serve(port: int = 8765):
+    """HTTP serve mode for Teacher IDE integration."""
+    from http.server import HTTPServer, BaseHTTPRequestHandler
+    import json as _json
+
+    swarm = AgentSwarm()
+
+    class ASIHandler(BaseHTTPRequestHandler):
+        def do_GET(self):
+            if self.path == '/status':
+                status = {
+                    'running': True,
+                    'ollama_connected': swarm.check_ollama(),
+                    'knowledge_entries': len(swarm.knowledge.entries) if hasattr(swarm, 'knowledge') else 0,
+                    'model_name': CONFIG.get('model', 'unknown')
+                }
+                self._respond(200, status)
+            elif self.path == '/health':
+                self._respond(200, {'ok': True})
+            else:
+                self._respond(404, {'error': 'Not found'})
+
+        def do_POST(self):
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = _json.loads(self.rfile.read(content_length)) if content_length else {}
+
+            if self.path == '/query':
+                prompt = body.get('prompt', '')
+                result = swarm.process(prompt)
+                self._respond(200, {
+                    'answer': result,
+                    'confidence': 0.8,
+                    'sources': [],
+                    'researcher_count': CONFIG.get('num_agents', 5)
+                })
+            elif self.path == '/teach':
+                topic = body.get('topic', '')
+                level = body.get('student_level', 'beginner')
+                result = swarm.process(f'/teach {topic} at {level} level')
+                self._respond(200, {
+                    'answer': result,
+                    'confidence': 0.8,
+                    'sources': [],
+                    'researcher_count': CONFIG.get('num_agents', 5)
+                })
+            else:
+                self._respond(404, {'error': 'Not found'})
+
+        def _respond(self, code, data):
+            self.send_response(code)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(_json.dumps(data).encode())
+
+        def log_message(self, format, *args):
+            pass  # Suppress default logging
+
+    server = HTTPServer(('127.0.0.1', port), ASIHandler)
+    print(f"\n  ASI HTTP server running on http://127.0.0.1:{port}")
+    print(f"  Endpoints: GET /status, POST /query, POST /teach")
+    print(f"  Press Ctrl+C to stop.\n")
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        print("\n  ASI server stopped.\n")
+        server.server_close()
+
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == '--serve':
+        port = int(sys.argv[2]) if len(sys.argv) > 2 else 8765
+        serve(port)
+    else:
+        main()
